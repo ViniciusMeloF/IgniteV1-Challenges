@@ -13,6 +13,6 @@ Ignite-Challenge-04: Refactoring de classes e typescript
 <br/>
 Ignite-Challenge-05: Criando um projeto do zero
 <br/>
-Ignite-Challenge-06: Upload de imagens. Realizar o upload e listagem de imagens utilizando React Query, React Hook Form e Chakra UI.
+Ignite-Challenge-06: Upload de imagens
 <br/>
 Ignite-Challenge-07: Otimizando a aplicação
