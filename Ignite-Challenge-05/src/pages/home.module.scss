@@ -1,0 +1,48 @@
+.wrapper {
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 3rem;
+    }
+
+    h1 {
+      display: block;
+      color: var(--heading);
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    div {
+      display: flex;
+      margin-top: 1.5rem;
+      font-size: 0.87rem;
+
+      time,
+      span {
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+
+        > svg {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.buttonWrapper {
+  max-width: 700px;
+  margin: 4rem auto;
+
+  button {
+    color: var(--highlight);
+    border: 0;
+    background: transparent;
+  }
+}
